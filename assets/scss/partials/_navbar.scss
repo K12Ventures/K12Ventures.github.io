@@ -1,0 +1,175 @@
+/* 2 navbar global */
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    .navbar {
+        padding: 0;
+    }
+    .navbar-header {
+        margin-top: 18px;
+    }
+    .navbar-toggler-icon {
+        background-color: #01292f;
+    }
+    .navbar-toggler {
+        margin-right: 15px;
+        border: none;
+        padding: 6 10px;
+        position: absolute;
+        right: 0;
+        top: -78px;
+    }
+    .brand-logo {
+        margin-top: 18px;
+    }
+    &.white-color {
+        .navbar-nav {
+            li {
+                &.active {
+                    > a {
+                        color: #cf057c;
+                        &:before {
+                            position: absolute;
+                            left: -9px;
+                            top: 50px;
+                            content: "";
+                            height: 2px;
+                            width: 20px;
+                            background: #cf057c;
+                        }
+                    }
+                }
+            }
+            .nav-link {
+                color: $white;
+                &:hover {
+                    color: #cf057c;
+                }
+            }
+        }
+        ul {
+            li {
+                &.header-ticket {
+                    a {
+                        color: $white;
+                        border: 2px solid $white;
+                    }
+                }
+            }
+        }
+    }
+    .navbar-nav {
+        li {
+            &.active {
+                > a {
+                    color: #cf057c;
+                    &:before {
+                        position: absolute;
+                        left: -9px;
+                        top: 50px;
+                        content: "";
+                        height: 2px;
+                        width: 20px;
+                        background: $secondary-hover-color;
+                    }
+                }
+            }
+        }
+        .nav-link {
+            line-height: 100px;
+            font-size: 15px;
+            color: $white;
+            font-weight: 500;
+            text-transform: capitalize;
+            padding: 0 20px;
+            position: relative;
+            &:hover {
+                color: $secondary-hover-color;
+            }
+        }
+        .dropdown-menu {
+            width: 200px;
+            background: #cf057c;
+            padding: 10px 15px;
+            border-radius: 0;
+            top: 0;
+            border: none;
+            li {
+                a {
+                    display: block;
+                    padding: 8px 5px;
+                    font-size: 13px;
+                    color: $white;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    &:hover {
+                        background-color: $brand-primary;
+                    }
+                }
+            }
+        }
+    }
+    ul {
+        li {
+            &.header-ticket {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 31px;
+                a {
+                    padding: 15px 30px !important;
+                    line-height: 0 !important;
+                    color: $white;
+                    border: 2px solid $secondary-hover-color;
+                    border-radius: 28px;
+                    transition: $transition;
+                    background: $secondary-hover-color;
+                    &:hover {
+                        background: $hover-color;
+                        border-color: $hover-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.base-style-2 {
+    &.no-p {
+        position: inherit;
+    }
+    .navbar-nav {
+        li {
+            &.active {
+                > a {
+                    color: #cf057c;
+                    &:before {
+                        background: $brand-primary;
+                    }
+                }
+            }
+        }
+        .nav-link {
+            color: $title-color;
+        }
+    }
+    ul {
+        li {
+            &.header-ticket {
+                a {
+                    background: transparent;
+                    color: $brand-primary;
+                    border: 2px solid $brand-primary;
+                    transition: $transition;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
