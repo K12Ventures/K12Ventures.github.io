@@ -1125,6 +1125,7 @@ a {
   transition: all 0.4s;
   border: 1px solid #dee2e6;
   border-radius: 6px; }
+  /*
   .whos-speaking-area .speakers:hover {
     -webkit-box-shadow: 0 0 6px 5px #ddd;
     box-shadow: 0 0 6px 5px #ddd;
@@ -1133,6 +1134,7 @@ a {
     -o-transition: all 0.4s;
     transition: all 0.4s;
     border: 1px solid #dee2e6; }
+    */
   .whos-speaking-area .speakers .spk-img {
     position: relative; }
     .whos-speaking-area .speakers .spk-img:before {
@@ -1150,10 +1152,12 @@ a {
       -o-transition: all 0.4s;
       transition: all 0.4s;
       z-index: 5; }
+      /*
     .whos-speaking-area .speakers .spk-img:hover:before {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1); }
+      */
     .whos-speaking-area .speakers .spk-img img {
       width: 100%;
       border-top-left-radius: 6px;
