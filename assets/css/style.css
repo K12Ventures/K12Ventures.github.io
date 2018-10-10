@@ -1116,7 +1116,7 @@ a {
       .event-schedule-area-two .tab-content .table tbody tr td .event-img img {
         width: 100px;
         height: 100px;
-        border-radius: 8px; }
+        border-radius: 50%; }
 
 /*3.4 Whos Speaking Area*/
 .whos-speaking-area .speakers {
