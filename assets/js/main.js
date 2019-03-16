@@ -233,6 +233,8 @@
             animation: 'fade'
         });
 
+        $('#collapseOne').collapse("hide");
+
     });
     //dom ready end
 
