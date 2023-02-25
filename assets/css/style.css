@@ -2347,3 +2347,8 @@ a {
 
 .shop button {
   top: 10px !important; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
